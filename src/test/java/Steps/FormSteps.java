@@ -5,6 +5,10 @@ import Page.HomePage;
 
 public class FormSteps extends HomePage {
 
+    public FormSteps(ChromeDriver driver) {
+        super(driver);
+    }
+
 
     public void enterFirstName (){
         String FIRST_NAME = "Estefani";
